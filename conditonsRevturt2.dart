@@ -52,5 +52,20 @@ void main() {
       reward = "invalid";
       break;
   }
+
   print(reward);
+  var time = 12;
+  var timeOfDay = "";
+  switch (time) {
+    case 10:
+      timeOfDay = "morning";
+      break;
+    case 12:
+      timeOfDay = "noon";
+      break;
+  }
+  print(timeOfDay);
+  if (time <= 12) {
+    print("its noon");
+  }
 }
