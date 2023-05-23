@@ -12,11 +12,9 @@ void main() {
   bool isRequired = false;
   bool isValid = false;
   bool result = isRequired || isValid;
-
+  print(result);
   bool isActive = true;
   bool isPasswordCorrect = true;
   bool isAuthenticated = isActive && isPasswordCorrect;
   print(isAuthenticated);
-
-  print(result);
 }
